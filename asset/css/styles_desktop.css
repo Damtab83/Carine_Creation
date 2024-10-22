@@ -1,0 +1,9 @@
+.container {
+  font-size: 2rem;
+  width: 70vw;
+  margin: auto;
+}
+
+.container img {
+  float: left;
+}

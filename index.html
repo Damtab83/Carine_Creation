@@ -7,17 +7,78 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=League+Script&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./asset/css/styles.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 500px)"
+      href="./asset/css/styles_mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 501px) and (max-width: 1024px)"
+      href="./asset/css/styles_tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 1025px)"
+      href="./asset/css/styles_desktop.css"
+    />
   </head>
   <body>
-    <header></header>
-    <main class="container">
+    <header class="header">
+      <ul class="nav">
+        <li>
+          <a href="./index.html"
+            ><img
+              class="header_link"
+              src="./asset/icon/house-solid.svg"
+              alt="home"
+          /></a>
+        </li>
+        <li><a href="./pages/materiaux.html">Matériaux</a></li>
+        <li><a href="./pages/production.html">Production</a></li>
+        <li><a href="./pages/mentions_legales.html">Mentions Légales</a></li>
+      </ul>
+      <div class="burger">
+        <img src="./asset/icon/bars-solid.svg" alt="burger_menu" />
+      </div>
+    </header>
+    <main>
       <h1>Carine Création</h1>
-      <img src="./asset/images/marron_pastille_bleu.jpg" alt="" />
-      <img src="./asset/images/marron_noir.jpg" alt="" />
+      <div class="container">
+        <img
+          class="bourse"
+          src="./asset/images/complete/marron_pastille_bleu.jpg"
+          alt="brown_wallet"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non labore
+          odit quia soluta adipisci voluptatem quis reiciendis ex, ea
+          reprehenderit recusandae aspernatur, dolor nulla mollitia natus
+          placeat vero est illum quaerat veniam accusantium dolore culpa sequi.
+          Sit omnis pariatur veniam ipsa, ducimus ipsam maiores, iusto minima
+          dolores consectetur quaerat? Facilis voluptatibus explicabo nihil quas
+          eum exercitationem esse veniam ducimus sint. Tempore numquam adipisci
+          modi quaerat maiores rerum unde, vitae, quia ipsum quo, ad quas.
+          Debitis unde, iste, veniam modi reprehenderit minima pariatur dolor
+          sit sed est nemo eveniet repudiandae enim itaque accusamus saepe autem
+          esse dignissimos! Quo saepe assumenda nisi ipsum asperiores doloribus,
+          earum atque natus deserunt sit id repellendus reiciendis dolorem rem
+          mollitia libero consequatur reprehenderit eum accusantium eius
+          necessitatibus porro unde? Optio illo mollitia error sapiente dolores
+          fugit, natus repudiandae cum itaque quisquam distinctio eum veritatis
+          laborum perferendis dignissimos voluptatum magnam iusto cumque,
+          voluptas cupiditate dolorem fuga adipisci!
+        </p>
+        <img
+          class="bourse"
+          src="./asset/images/complete/marron_noir.jpg"
+          alt="dark_brown_wallet"
+        />
+      </div>
     </main>
   </body>
 </html>
