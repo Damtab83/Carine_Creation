@@ -3,20 +3,113 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mentions légales</title>
+    <title>Mentions Légales | Carine Création</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../asset/css/styles.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 500px)"
+      href="../asset/css/styles_mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 501px) and (max-width: 1024px)"
+      href="../asset/css/styles_tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 1025px)"
+      href="../asset/css/styles_desktop.css"
+    />
   </head>
   <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid content_size">
+          <a class="nav-link active" aria-current="page" href="../index.html">
+            <img class="header_link" src="../asset/icon/house.svg" alt="home" />
+          </a>
+          <button
+            class="navbar-toggler content_button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="rgb(56, 39, 192)"
+                class="bi bi-list"
+                viewBox="0 0 16 16"
+                filter
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+                />
+              </svg>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse nav_style" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/materiaux.html">Matériaux</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/production.html"
+                  >Production</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/mentions_legales.html"
+                  >Mentions Légales</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
     <h1>Mentions Légales</h1>
 
-    <pre class="mentions__description">
-Le blog "Carine Création", accessible à l'adresse "***". 
-      Ce blog personnel n'ayant pour objectif que de présenter les créations et les matériaux qui ont été utilisés.
-      Les créations exposées sur le blog ne sont pas industrielles, mais faites à la main.
-    </pre>
-    <pre class="mentions__description">
-      Le blog "Carine Création" est hébergé par  
-  </pre
+    <main>
+      <div class="container_mentions">
+        <p class="presentation">
+          Le blog <span class="myName">"Carine Création"</span>, accessible à
+          l'adresse: "https://damtab83.github.io/Carine_Creation/".
+        </p>
+        <p class="presentation">
+          Ce blog personnel n'ayant pour objectif que de présenter les créations
+          et les matériaux qui ont été utilisés. Les créations exposées sur le
+          blog ne sont pas industrielles, mais faites à la main.
+        </p>
+        <p class="presentation">
+          Le blog <span class="myName">"Carine Création"</span> est hébergé par
+          github.com
+        </p>
+      </div>
+    </main>
     >
   </body>
 </html>
