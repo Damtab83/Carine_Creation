@@ -11,3 +11,8 @@
 .content_size {
   width: 30vw;
 }
+
+.container_mentions {
+  margin: auto;
+  width: 75vw;
+}
