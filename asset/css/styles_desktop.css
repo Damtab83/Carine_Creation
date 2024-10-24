@@ -1,9 +1,8 @@
-.container {
+.container_main {
   font-size: 2rem;
-  width: 70vw;
-  margin: auto;
-}
-
-.container img {
-  float: left;
+  width: 80vw;
+  margin: 3rem 10vw;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -14,6 +14,7 @@ h1 {
   font-size: 5rem;
   color: rgb(56, 39, 192);
   text-shadow: lightgrey 2px 2px;
+  margin: 10vh auto 5vh auto;
 }
 
 .nav_style {
@@ -39,6 +40,10 @@ h1 {
   filter: drop-shadow(white 2px 2px 2px);
 }
 
+.content_size {
+  justify-content: space-between;
+}
+
 .bourse {
   width: 200px;
   height: 250px;
@@ -47,6 +52,15 @@ h1 {
   margin: 1.2rem;
 }
 
-.content_size {
-  justify-content: space-between;
+.nav-item a {
+  font-size: 1.5rem;
+}
+
+.presentation {
+  font-size: 2rem;
+}
+
+.myName {
+  font-weight: 600;
+  text-decoration: wavy;
 }
