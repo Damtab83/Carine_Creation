@@ -16,6 +16,29 @@ h1 {
   text-shadow: lightgrey 2px 2px;
 }
 
+.nav_style {
+  border-radius: 20px;
+  margin-top: 0.5rem;
+  /* width: 30vw; */
+  color: rgb(56, 39, 192);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_style a {
+  color: rgb(56, 39, 192);
+  text-decoration: none;
+  cursor: pointer;
+  text-shadow: white 2px 2px 2px;
+}
+
+.header_link {
+  width: 1.5rem;
+  height: auto;
+  filter: drop-shadow(white 2px 2px 2px);
+}
+
 .bourse {
   width: 200px;
   height: 250px;
@@ -24,32 +47,6 @@ h1 {
   margin: 1.2rem;
 }
 
-.header .header_link {
-  width: 20px;
-  height: 20px;
-  filter: drop-shadow(white 2px 2px 2px);
-}
-
-.header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 40vw;
-  font-size: 1.5rem;
-}
-
-.nav li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  cursor: pointer;
-  text-shadow: white 2px 2px 2px;
+.content_size {
+  justify-content: space-between;
 }

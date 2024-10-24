@@ -1,9 +1,13 @@
-.container {
+.container_main {
   margin: auto;
   font-size: 1.5rem;
   width: 75vw;
 }
 
-.container img {
+.container_main img {
   float: left;
+}
+
+.content_size {
+  width: 30vw;
 }
