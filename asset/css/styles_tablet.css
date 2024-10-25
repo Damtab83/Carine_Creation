@@ -17,10 +17,18 @@
   width: 75vw;
 }
 
+.fabrication {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* .figure_size {
   width: 50%;
 }
 
-.text_caption {
+.figure_size img {}
+*/
+/* .text_caption {
   text-align: center;
 } */
