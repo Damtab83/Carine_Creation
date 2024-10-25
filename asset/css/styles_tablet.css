@@ -23,12 +23,12 @@
   align-items: center;
 }
 
-/* .figure_size {
-  width: 50%;
+.carousel_size {
+  width: 35vw;
+  height: 25vh;
+  margin: auto;
 }
 
-.figure_size img {}
-*/
-/* .text_caption {
-  text-align: center;
-} */
+.carousel_img {
+  border-radius: 30px;
+}

@@ -3,9 +3,17 @@ h1 {
 }
 
 .container_main,
-.container_mentions,
-.finition,
-.coupe {
+.container_mentions {
   width: 60vw;
   margin: auto;
+}
+
+.carousel_size {
+  width: 90vw;
+  height: 90vh;
+  margin: auto;
+}
+
+.carousel_img {
+  border-radius: 30px;
 }

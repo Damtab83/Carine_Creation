@@ -30,3 +30,13 @@
   font-size: 1.2rem;
   padding: auto 20%;
 }
+
+.carousel_size {
+  width: 30vw;
+  height: 20vh;
+  margin: auto;
+}
+
+.carousel_img {
+  border-radius: 30px;
+}
