@@ -2,12 +2,10 @@ h1 {
   text-align: center;
 }
 
-.container_main {
-  width: 60vw;
-  margin: auto;
-}
-
-.container_mentions {
+.container_main,
+.container_mentions,
+.finition,
+.coupe {
   width: 60vw;
   margin: auto;
 }

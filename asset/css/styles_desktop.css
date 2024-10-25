@@ -8,6 +8,25 @@
 }
 
 .container_mentions {
-  width: 65vw;
+  width: 70vw;
   margin: auto;
+}
+
+.fabrication {
+  display: inline-flex;
+  max-height: 60vh;
+  column-gap: 5%;
+}
+
+.figure_size {
+  width: 30%;
+}
+.figure_size img {
+  margin: 0 15%;
+}
+
+.text_caption {
+  justify-content: center;
+  font-size: 1.2rem;
+  padding: auto 20%;
 }
