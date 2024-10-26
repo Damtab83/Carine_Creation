@@ -32,3 +32,12 @@
 .carousel_img {
   border-radius: 30px;
 }
+
+.boutons_rivet {
+  margin: auto;
+}
+
+.container_materiaux {
+  width: 90vw;
+  margin: auto;
+}
