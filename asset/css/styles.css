@@ -2,11 +2,11 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-image: url(../images/bardage.jpg);
+  background-image: url(../images/bardage2.jpg);
   font-family: "Meow Script", serif;
   font-weight: 400;
   font-style: normal;
-  color: aliceblue;
+  color: rgb(241, 214, 179);
 }
 
 h1 {
@@ -14,24 +14,21 @@ h1 {
   justify-content: center;
   font-size: 5rem;
   margin: 10vh auto 5vh auto;
-  color: rgb(56, 39, 192);
   text-shadow: lightgrey 2px 2px;
 }
 
 .nav_style {
   border-radius: 20px;
   margin-top: 0.5rem;
-  color: rgb(56, 39, 192);
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .nav_style a {
-  color: rgb(56, 39, 192);
   text-decoration: none;
+  color: rgb(241, 214, 179);
   cursor: pointer;
-  text-shadow: white 2px 2px 2px;
 }
 
 .header_link {
@@ -82,17 +79,23 @@ h2 {
   padding-bottom: 2rem;
   width: 80vw;
   text-decoration-line: underline;
-  animation: blink 1s infinite;
+  animation: blink 2s infinite;
 }
 
 @keyframes blink {
   0% {
-    color: rgb(56, 39, 192);
+    color: rgb(241, 214, 179);
+  }
+  25% {
+    color: rgb(153, 18, 190);
   }
   50% {
+    color: rgb(206, 5, 156);
+  }
+  75% {
     color: rgb(153, 18, 190);
   }
   100% {
-    color: rgb(206, 5, 156);
+    color: rgb(241, 214, 179);
   }
 }
