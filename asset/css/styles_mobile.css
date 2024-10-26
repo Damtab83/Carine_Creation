@@ -21,3 +21,10 @@ h1 {
 .deco_img {
   margin: 2vh 25vw;
 }
+
+.boutons_rivet img {
+  height: 180px;
+}
+.boutons_rivet img:first-child {
+  height: 200px;
+}
