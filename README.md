@@ -6,3 +6,5 @@ Cette artiste crée aussi des tableaux qui seront à retrouver plus tard sur une
 
 Ce blog a pour but d'être diffuser dans un cercle restreint et amical.
 Si vous voulez lui laisser un message vous pouvez m'en laisser un sur mon profile LinkedIn.
+
+adresse du blog:  https://damtab83.github.io/Carine_Creation/
