@@ -42,7 +42,7 @@ h1 {
 }
 
 .bourse {
-  width: 200px;
+  width: 250px;
   height: 200px;
   border-radius: 65px;
   box-shadow: grey 5px 5px 3px;
@@ -80,6 +80,15 @@ h2 {
   width: 80vw;
   text-decoration-line: underline;
   animation: blink 2s infinite;
+}
+
+.carousel_img {
+  border-radius: 30px;
+}
+
+.carousel_img .carousel-item img {
+  height: 45vh;
+  width: 25vw;
 }
 
 @keyframes blink {

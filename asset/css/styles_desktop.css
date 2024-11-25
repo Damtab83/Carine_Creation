@@ -36,11 +36,3 @@
   height: 20vh;
   margin: auto;
 }
-
-.carousel_img {
-  border-radius: 30px;
-}
-
-.carousel_img img {
-  max-height: 340px;
-}
