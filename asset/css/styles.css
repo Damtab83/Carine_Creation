@@ -41,14 +41,6 @@ h1 {
   justify-content: space-between;
 }
 
-.bourse {
-  width: 50vw;
-  height: 30vh;
-  border-radius: 65px;
-  box-shadow: grey 5px 5px 3px;
-  margin: 1.2rem;
-}
-
 .nav-item a {
   font-size: 1.5rem;
 }

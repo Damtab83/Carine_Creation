@@ -24,3 +24,11 @@ h1 {
 .boutons_rivet img:first-child {
   height: 200px;
 }
+
+.bourse {
+  width: 50vw;
+  height: 30vh;
+  border-radius: 65px;
+  box-shadow: grey 5px 5px 3px;
+  margin: 1.2rem;
+}
