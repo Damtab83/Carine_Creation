@@ -18,8 +18,8 @@ h1 {
   margin: 2vh 25vw;
 }
 
-/* test */
-.boutons_rivet .cuir {
+.boutons_rivet,
+.cuir {
   padding: 15vw;
 }
 .boutons_rivet h2 {
@@ -29,7 +29,6 @@ h1 {
   display: block;
   margin: 10px;
 }
-/* test */
 
 .boutons_rivet img {
   height: 180px;
